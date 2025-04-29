@@ -14,7 +14,8 @@
             // print_r($row);
             // die;
             $hashpass = $row['password'];
-            if(password_verify($pass, $hashpass)){
+            
+            if(password_verify($pass, $hashpass) && $row['account_type'] == 1){
                 // header('location: home.php');
                 session_start();
                 $_SESSION['loggedin'] = true;
