@@ -15,6 +15,7 @@ Admin side view
 
 
 Database and login related
+
   php_letdisccuss.sql : database name 
   admin login : 
           email : admin@gmail.com 
