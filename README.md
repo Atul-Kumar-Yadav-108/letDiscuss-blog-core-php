@@ -12,3 +12,11 @@ Admin side view
   - Request categories has two action accept and reject if
       -  admin accept the category request the a category has been created by successs title automatically.
       -  if reject then no category are going to be created
+
+
+Database and login related
+  php_letdisccuss.sql : database name 
+  admin login : 
+          email : admin@gmail.com 
+          password : admin123
+  Note - for user : can create new account and login with
